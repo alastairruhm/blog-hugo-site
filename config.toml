@@ -1,0 +1,47 @@
+baseurl = "http://blog.ruhm.me/"
+title = "hehe"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Ruhm.Pacino"
+
+metaDataFormat = "toml"
+
+[Author]
+    name = "Ruhm.Pacino"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "My headline"
+    description = "We are fighting for the glory"
+    github = "https://github.com/XXX"
+    linkedin = "https://linkedin.com/in/XXX/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/XXX"
+    stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+
+[Permalinks]
+    post = "/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4

@@ -1,5 +1,5 @@
 baseurl = "http://blog.ruhm.me/"
-title = "hehe"
+title = "Data Portal"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Ruhm.Pacino"
@@ -15,7 +15,7 @@ metaDataFormat = "toml"
 
 [Params]
     intro = true
-    headline = "My headline"
+    headline = "Data Portal"
     description = "We are fighting for the glory"
     github = "https://github.com/XXX"
     linkedin = "https://linkedin.com/in/XXX/"

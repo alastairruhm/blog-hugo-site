@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@git.coding.net:ruhm/ruhm.git
+	branch = master

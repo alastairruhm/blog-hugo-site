@@ -2,7 +2,7 @@
 title = "anbile 学习笔记（一）"
 date =  "2016-03-22"
 categories = ["ansible", "devops"]
-tags = ["python", "ansible", "note"]
+tags = ["ansible学习笔记", "ansible"]
 +++
 
 [TOC]

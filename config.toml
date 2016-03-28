@@ -10,8 +10,10 @@ metaDataFormat = "toml"
     name = "Ruhm.Pacino"
     profile = "https://google.com/+XXX"
 
-[Taxonomies]
+[taxonomies]
     tag = "tags"
+    category = "categories"
+
 
 [Params]
     intro = true
@@ -32,8 +34,8 @@ metaDataFormat = "toml"
     weight = 1
 
 [[menu.main]]
-    name = "Projects"
-    url = "/project/"
+    name = "weekly-issues"
+    url = "/weekly-issues/"
     weight = 2
 
 [[menu.main]]
@@ -45,3 +47,8 @@ metaDataFormat = "toml"
     name = "About"
     url = "/page/about/"
     weight = 4
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 5

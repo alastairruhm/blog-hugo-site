@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "\033[0;32mDeploying updates to coding...\033[0m"
 
 # Build the project.
+echo -e "\033[0;32mGenerate static pages using theme [ghostwriter]...\033[0m"
 hugo -t ghostwriter # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder

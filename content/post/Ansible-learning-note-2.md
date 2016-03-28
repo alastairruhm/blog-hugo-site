@@ -2,7 +2,8 @@
 title = "anbile 学习笔记（二）"
 date = "2016-03-23"
 categories = ["ansible", "devops"]
-tags = ["ansible", "note"]
+tags = ["ansible学习笔记", "ansible"]
+series = [ "ansible学习笔记" ]
 +++
 
 [TOC]
@@ -11,7 +12,7 @@ tags = ["ansible", "note"]
 
 ## Ansible 一些核心概念
 
-![Ansible-component](media/14587192373325.jpg)
+![ansible-component](http://7xqakm.com1.z0.glb.clouddn.com/2016-03-24-ansible-component.png)
 
 
 * Ansible: 核心
@@ -145,5 +146,13 @@ http://docs.ansible.com/ansible/intro_inventory.html#list-of-behavioral-inventor
 
 ### Dynamic Inventory
 
-TODO
+区别与基于文本的 Inventory，动态目录的特性提供了从外部获取 inventory 配置的可能性。
+
+目前支持的几个典型 source: [Cobber](http://docs.ansible.com/ansible/intro_dynamic_inventory.html#example-the-cobbler-external-inventory-script), [AWS EC2](http://docs.ansible.com/ansible/intro_dynamic_inventory.html#example-aws-ec2-external-inventory-script), [OpenStack](http://docs.ansible.com/ansible/intro_dynamic_inventory.html#example-openstack-external-inventory-script)。
+
+PS：使用方法在 ansible 仓库的 `contrib/inventory`目录下获取。
+
+另外，静态清单和动态清单可以[混合使用](http://docs.ansible.com/ansible/intro_dynamic_inventory.html#using-inventory-directories-and-multiple-inventory-sources)。
+
+
 

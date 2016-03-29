@@ -1,6 +1,6 @@
 +++
 title = "python 多版本管理"
-date = "2016-02-24"
+date = "2015-02-24"
 categories = ["python"]
 tags = ["python"]
 +++

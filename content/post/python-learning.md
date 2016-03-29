@@ -1,6 +1,6 @@
 +++
 title = "python 学习记录"
-date = "2016-02-23"
+date = "2015-02-23"
 categories = ["python"]
 tags = ["python"]
 +++

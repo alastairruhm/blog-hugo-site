@@ -1,6 +1,6 @@
 baseurl = "http://blog.ruhm.me/"
 title = "Data Portal"
-theme = "ghostwriter"
+#theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Ruhm.Pacino"
 

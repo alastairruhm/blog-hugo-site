@@ -1,6 +1,6 @@
 +++
 title = "openstack 虚拟机 redis 基本性能测试"
-date = "2015-11-07"
+date = "2014-11-07"
 categories = ["redis"]
 tags = ["redis"]
 +++

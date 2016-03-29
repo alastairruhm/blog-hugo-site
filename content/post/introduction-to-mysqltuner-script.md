@@ -1,6 +1,6 @@
 +++
 title = "mysqltuner 工具简介"
-date = "2015-11-03"
+date = "2014-11-03"
 categories = ["mysql"]
 tags = ["mysql"]
 +++

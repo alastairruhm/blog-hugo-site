@@ -1,6 +1,6 @@
 +++
 title = "git 如何回滚已 push 到远程仓库的提交"
-date = "2015-06-12"
+date = "2014-06-12"
 categories = ["git"]
 tags = ["git"]
 +++

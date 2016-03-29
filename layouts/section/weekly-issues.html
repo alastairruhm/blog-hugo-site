@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<div id="post-index" class="container">
+    <header class="post-header">
+        <h1 class="post-title">Weekly-Issues</h1>
+        <p>记录每周的脑洞</p>
+    </header>
+
+    <ol class="post-list">
+        {{ $pag := .Paginate .Data.Pages }}
+        {{ range $pag.Pages }}
+            {{ partial "weekly-issues/weekly-issues-stub.html" . }}
+        {{ end }}
+    </ol>
+
+    <div class="post-navigation">
+        {{ partial "pagination.html" . }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

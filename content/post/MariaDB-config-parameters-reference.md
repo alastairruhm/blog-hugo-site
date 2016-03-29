@@ -1,6 +1,6 @@
 +++
 title = "MariaDB 配置参数参考"
-date = "2015-06-04"
+date = "2014-06-04"
 categories = ["mysql"]
 tags = ["mysql"]
 +++

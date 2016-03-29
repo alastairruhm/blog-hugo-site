@@ -2,6 +2,7 @@
 title = "Python 字符串的格式化"
 date = "2016-03-24"
 tags = ["python"]
+categories = ["python"]
 +++
 
 # Python 字符串的格式化

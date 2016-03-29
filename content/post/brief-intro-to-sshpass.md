@@ -1,6 +1,6 @@
 +++
 title = "sshpass 工具简介"
-date = "2015-07-28"
+date = "2014-07-28"
 categories = ["ssh"]
 tags = ["ssh"]
 +++

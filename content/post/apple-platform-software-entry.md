@@ -1,6 +1,6 @@
 +++
-title = "软件清单"
-date = "2016-03-28"
+title = "iOS/OSX 软件清单"
+date = "2016-03-26"
 tags = ["os x"]
 +++
 

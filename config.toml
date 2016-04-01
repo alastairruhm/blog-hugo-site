@@ -19,10 +19,10 @@ metaDataFormat = "toml"
     intro = true
     headline = "Data Portal"
     description = "We are fighting for the glory"
-    github = "https://github.com/XXX"
+    github = "https://github.com/RuhmST"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
-    twitter = "https://twitter.com/XXX"
+    twitter = "https://twitter.com/Ruhm_ST"
     stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
 
 [Permalinks]

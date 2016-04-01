@@ -1,6 +1,6 @@
 +++
 title = "监控系统相关的开源项目"
-date = "2016-03-29"
+date = "2016-03-28"
 tags = ["open-source", "devops"]
 +++
 
@@ -17,7 +17,7 @@ tags = ["open-source", "devops"]
 
 ## 数据存储 
 
-* InfluxDB 
+* [InfluxDB](https://influxdata.com/) 
 * OpenTSDB 
 * Grafana 
 
@@ -26,7 +26,7 @@ tags = ["open-source", "devops"]
 * Nagios
 * Cacti
 * Ganglia
-* Zabbix
+* Zabbix
 * Zenoss Core
 * SmokePing
 

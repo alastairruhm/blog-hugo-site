@@ -9,10 +9,7 @@ tags = ["open-source", "devops"]
 ## 数据采集
 
 * collectd 
-* heka 
-
-## 图形 
-
+* heka
 * statsd 
 
 ## 数据存储 

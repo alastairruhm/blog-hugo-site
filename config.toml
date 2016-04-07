@@ -3,7 +3,7 @@ title = "Data Portal"
 #theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Ruhm.Pacino"
-
+Paginate = 20
 metaDataFormat = "toml"
 
 [Author]

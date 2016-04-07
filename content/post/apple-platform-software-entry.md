@@ -19,5 +19,5 @@ tags = ["os x"]
 * DeskConnect - IOS 和 OSX 互传文件工具
 * PDF expert - 可能是最好的 PDF 阅读器
 * [Folx](http://mac.eltima.com/download-manager.html) - Mac专用的下载器
-
+* [vivaldi](https://vivaldi.com/?lang=zh) - 替代chrome
 

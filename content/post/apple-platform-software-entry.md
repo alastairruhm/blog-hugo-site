@@ -20,4 +20,6 @@ tags = ["os x"]
 * PDF expert - 可能是最好的 PDF 阅读器
 * [Folx](http://mac.eltima.com/download-manager.html) - Mac专用的下载器
 * [vivaldi](https://vivaldi.com/?lang=zh) - 替代chrome
+* [WebTorren](https://webtorrent.io/) - 流媒体播放器
+
 

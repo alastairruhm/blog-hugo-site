@@ -21,5 +21,6 @@ tags = ["os x"]
 * [Folx](http://mac.eltima.com/download-manager.html) - Mac专用的下载器
 * [vivaldi](https://vivaldi.com/?lang=zh) - 替代chrome
 * [WebTorren](https://webtorrent.io/) - 流媒体播放器
-
+* [Cloud Outliner 2 for Mac](https://itunes.apple.com/cn/app/cloud-outliner-2-pro-outline/id1024917449?mt=1&app=music&ign-mpt=uo%3D4) - 大纲应用
+* [Postman]() - API 构建测试工具
 

@@ -37,7 +37,7 @@ tags = ["python", "supervisor"]
     exec "$@"
     deactivate
     ```
-
-
+    
+  参考： [supervisord + pypy + virtualenv 使用 - zheng-ji's Wiki](http://wiki.zheng-ji.info/Python/supervisord.html)
 
 

@@ -35,8 +35,8 @@ TODO: 比较它们的优缺点
 #### 被管理节点要求
 
 * 需要安装 Python 2.4 以上版本
-* 若低于 Python 2.5 需要安装 python-simplejson
-* 若启用了 selinux,则需要安装 libselinux-python
+* 若低于 Python 2.5 需要安装 `python-simplejson`
+* 若启用了 `selinux`, 则需要安装 `libselinux-python`
 
 ### 安装步骤
  
@@ -49,12 +49,12 @@ sudo pip install ansible
 
 ## 注意事项
 
-### 关于SSH
+### 关于`SSH`
 
 SSH 协议的一些问题：
 
 * Ansible 1.3 以及之后的版本默认使用系统自带的 OpenSSH ，它对一些高级的特性提供了支持。
-* Enterprise Linux 6 因为 OpenSSH 版本太低，在这些系统上，Ansible 使用的则是一个OpenSSH的Python实现，叫做『paramiko』
+* Enterprise Linux 6 因为 OpenSSH 版本太低，在这些系统上，Ansible 使用的则是一个OpenSSH的Python实现，叫做 「paramiko」
 
 支持的请求方式：
 

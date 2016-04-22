@@ -24,7 +24,8 @@ tags = ["os x"]
 * [Cloud Outliner 2 for Mac](https://itunes.apple.com/cn/app/cloud-outliner-2-pro-outline/id1024917449?mt=1&app=music&ign-mpt=uo%3D4) - 大纲应用
 * [evernote]() - 笔记软件
 * [MWeb]() - markdown 写作软件
-* Surge for mac
+* Surge for mac - 网络调试工具
+* [licecap](http://www.cockos.com/licecap/) - 录屏输出 gif
 
 ## 编程
 
@@ -41,3 +42,4 @@ tags = ["os x"]
 * [SourceTree] - git 图形客户端
 
 ## 
+

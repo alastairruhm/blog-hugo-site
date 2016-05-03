@@ -22,7 +22,7 @@ git commit -m "$msg"
 git push origin master
 
 
-curl -X POST --data-urlencode 'payload={"channel": "#blogsite", "username": "webhookbot", "text": "rebuilding site"}' https://hooks.slack.com/services/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
+curl -X POST --data-urlencode 'payload={"channel": "#blogsite", "username": "webhookbot", "text": "rebuilding site :white_check_mark:", "attachments": [{"color": "#36a64f", "text": "pushed to coding platform"}]}' https://hooks.slack.com/services/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
 
 # Come Back
 cd ..
@@ -43,7 +43,7 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-curl -X POST --data-urlencode 'payload={"channel": "#blogsite", "username": "webhookbot", "text": "updating hugo directory"}' https://hooks.slack.com/services/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
+curl -X POST --data-urlencode 'payload={"channel": "#blogsite", "username": "webhookbot", "text": "updating hugo directory:white_check_mark:", "attachments": [{"color": "#36a64f", "text": "pushed to coding platform"}]}' https://hooks.slack.com/services/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
 
 # Come Back
 cd ..

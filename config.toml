@@ -39,8 +39,8 @@ metaDataFormat = "toml"
     weight = 2
 
 [[menu.main]]
-    name = "Contact"
-    url = "/page/contact/"
+    name = "awesome-list"
+    url = "/awesome-list/"
     weight = 3
 
 [[menu.main]]

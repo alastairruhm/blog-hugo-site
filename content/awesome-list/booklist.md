@@ -11,3 +11,7 @@ date = "2016-05-12"
 * MongoDB应用设计模式
 * MongoDB in Action
 
+## Python
+
+* Python Web开发：测试驱动方法
+

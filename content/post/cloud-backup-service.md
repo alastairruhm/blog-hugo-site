@@ -13,4 +13,4 @@ tags = ["cloud-backup-service"]
 * [The best cloud backup service - The Sweet Setup](http://thesweetsetup.com/apps/best-cloud-backup-service/)
 * [The Best Online Backup Service | The Wirecutter](http://thewirecutter.com/reviews/best-online-backup-service/)
 * [What are the best cloud backup services? - Slant](http://www.slant.co/topics/757/~cloud-backup-services)
-
+* [云储存时代的到来 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2011/04/dawn_of_cloud_storage.html)

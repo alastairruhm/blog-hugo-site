@@ -8,6 +8,8 @@ tags = ["cloud-backup-service"]
 
 目前主流服务是 [CrashPlan](https://www.code42.com/crashplan/) 、[Backblaze](https://www.backblaze.com/) 和 [Arq](https://www.arqbackup.com/)
 
+CrashPlan 和 Backblaze 功能基本相同，连收费策略都几乎相同。Arq 则可以自己定义备份的存储位置。
+
 参考：
 
 * [The best cloud backup service - The Sweet Setup](http://thesweetsetup.com/apps/best-cloud-backup-service/)

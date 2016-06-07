@@ -12,5 +12,5 @@ tags = ["cloud-backup-service"]
 
 * [The best cloud backup service - The Sweet Setup](http://thesweetsetup.com/apps/best-cloud-backup-service/)
 * [The Best Online Backup Service | The Wirecutter](http://thewirecutter.com/reviews/best-online-backup-service/)
-
+* [What are the best cloud backup services? - Slant](http://www.slant.co/topics/757/~cloud-backup-services)
 

@@ -1,4 +1,4 @@
-# +++
++++
 title = "Issue #6"
 date = "2016-06-14"
 tags = ["python"]

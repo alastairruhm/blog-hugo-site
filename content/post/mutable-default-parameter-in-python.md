@@ -1,6 +1,6 @@
 +++
 title = "Mutable Default Parameter Values in Python"
-date = "2016-07-27"
+date = "2016-07-15"
 tags = ["Python"]
 +++
 

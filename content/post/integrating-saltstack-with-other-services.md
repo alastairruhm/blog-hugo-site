@@ -14,39 +14,39 @@ tags = ["Python", "saltstack"]
 
 优点：
   
-  1. 简单易操作，只要机器安装了 saltstack，直接通过应用的Python代码里导入 salt 模块即可
+  * 简单易操作，只要机器安装了 saltstack，直接通过应用的Python代码里导入 salt 模块即可
 
 缺点：
 
-  1. Python语言绑定
-  2. 应用必须与 salt master 部署在同一台机器上
-  3. saltstack任务执行时,某些处理是在调用方进程里执行,这样意味调用方的必须与salt master同用户,否则到时会没有权限往 `/var/cache/salt/master` 目录写缓存文件. 比如salt master是root用户运行,那么django网站调用salt时也必须得也root用户运行.
+   * Python语言绑定
+   * 应用必须与 salt master 部署在同一台机器上
+   * saltstack任务执行时,某些处理是在调用方进程里执行,这样意味调用方的必须与salt master同用户,否则到时会没有权限往 `/var/cache/salt/master` 目录写缓存文件. 比如salt master是root用户运行,那么django网站调用salt时也必须得也root用户运行.
   
 # 2. salt api
 
 官方文档见这里 [netapi modules](https://docs.saltstack.com/en/latest/ref/netapi/all/index.html)
 
-优点:
-
-  1. 通过 `HTTP RESTful API` 方式提供，解除了对客户端语言的限制；
-  2. 客户端不需要与 salt master 部署在同一机器;
+优点:  
+  
+  * 通过 `HTTP RESTful API` 方式提供，解除了对客户端语言的限制;
+  * 客户端不需要与 salt master 部署在同一机器;
 
 缺点:
 
-  1. 需要使用者对 RESTful api 做封装，即需要自己实现 SDK；
-  2. 部分模块可能需要一些特殊的自定义接口，比如调用 `salt.modules.cp.push` 时
+  * 需要使用者对 RESTful api 做封装，即需要自己实现 SDK；
+  * 部分模块可能需要一些特殊的自定义接口，比如调用 `salt.modules.cp.push` 时
   
 # 3. salt command
 
-直接在应用中调用 salt 命令来执行任务，在python中，通常使用 subprocess.popen() 来执行系统指令
+直接在应用中调用 salt 命令来执行任务，在python standard library中，通常使用 subprocess.popen() 来执行系统指令
 
 优点：
 
-  1. 简单，容易理解，因为通常我们是通过 salt 的命令行工具来学习 saltstack 的
+  * 简单，容易理解，因为通常我们是通过 salt 的命令行工具来学习 saltstack 的
 
 缺点：
 
-  1. 需要精心设计错误处理过程
+  * 需要精心设计错误处理过程
 
 # 参考链接：
 

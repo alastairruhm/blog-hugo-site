@@ -40,6 +40,7 @@ tags = ["os x"]
 * Beyong Compare - 文件比对
 * [Vagrant](https://www.vagrantup.com/) - 虚拟机管理
 * [SourceTree] - git 图形客户端
+* [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
 
 ## 
 

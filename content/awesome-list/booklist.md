@@ -14,4 +14,5 @@ date = "2016-05-12"
 ## Python
 
 * Python Web开发：测试驱动方法
+* [精通Python设计模式](https://book.douban.com/subject/26829015/)
 

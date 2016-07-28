@@ -14,6 +14,6 @@ tags = ["open-source", "awesome-list"]
 
 ## 系统工程
 
-[gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
+* [gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
 
 

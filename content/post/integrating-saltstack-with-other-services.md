@@ -1,6 +1,6 @@
 +++
 title = "integrating saltstack with other services"
-date = "2016-07-26"
+date = "2016-07-25"
 tags = ["Python", "saltstack"]
 +++
 

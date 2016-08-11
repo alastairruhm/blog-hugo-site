@@ -1,6 +1,6 @@
 +++
 title = "Golang 中的字符串声明"
-date = "2016-06-31"
+date = "2016-06-30"
 categories = ["Golang"]
 tags = ["golang"]
 +++

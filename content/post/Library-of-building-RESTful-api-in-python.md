@@ -21,6 +21,11 @@ REST 服务的要求之一就是超文本驱动，客户端不再需要将某些
 
 PS：JSON API 有一个Python实现，[django-json-api/django-rest-framework-json-api: Implements most of the JSON API 1.0 spec.](https://github.com/django-json-api/django-rest-framework-json-api)
 
+## 文档
+
+[apidoc - RESTful API 文档生成工具](http://apidoc.tools/#docs)
+[apiDoc - Inline Documentation for RESTful web APIs](http://apidocjs.com/#param-api-group)
+
 ## 参考链接
 
 * [bolasblack/http-api-guide](https://github.com/bolasblack/http-api-guide#user-content-%E6%9B%B4%E7%BB%86%E8%8A%82%E7%9A%84%E6%8E%A5%E5%8F%A3%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97)

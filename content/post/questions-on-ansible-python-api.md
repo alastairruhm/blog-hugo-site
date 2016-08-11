@@ -2,7 +2,7 @@
 title = "关于 ansible python API 使用的一些问题"
 date = "2016-04-06"
 categories = ["ansible"]
-tags = ["ansible", "devops"]
+tags = ["ansible", "devops", "配置管理工具"]
 +++
 
 # 关于 ansible python API 使用的一些问题

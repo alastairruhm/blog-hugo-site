@@ -1,6 +1,6 @@
 
 +++
-title = "[Django]  MySQL's Strict Mode settting in Django"
+title = "[Django]  MySQL's Strict Mode setting in Django"
 date = "2016-08-22"
 tags = ["django"]
 +++
@@ -24,7 +24,7 @@ WARNINGS:
 
 ```
 [mysqld]
-
+sql_mode='STRICT_TRANS_TABLES'
 ```
 
 参考：

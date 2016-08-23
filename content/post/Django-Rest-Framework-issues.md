@@ -1,4 +1,13 @@
-# API 列表数据的组合
++++
+title = "Django Rest Framework 问题备忘"
+date = "2016-08-16"
+tags = ["django-rest-framework"]
++++
+
+# Django Rest Framework 问题备忘
+
+
+### API 列表数据的组合
 
 
 参考：
@@ -35,5 +44,12 @@ https://github.com/openstack/horizon/blob/master/openstack_dashboard/dashboards/
 
 ```
 
+### Nested resource routers 
+
+参考 repo
+
+[alanjds/drf-nested-routers: Nested Routers for Django Rest Framework](https://github.com/alanjds/drf-nested-routers)
+
+但是注意这个第三方库不稳定
 
 

@@ -1,6 +1,8 @@
++++
 title = "[openstack]  openstacksdk 项目从 0.9.1 升级到 0.9.2 compute 服务返回 404 的问题"
 date = "2016-08-23"
 tags = ["openstack"]
++++
 
 # 
 

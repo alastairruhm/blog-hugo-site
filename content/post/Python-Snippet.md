@@ -1,3 +1,8 @@
++++
+title = "Python Snippet"
+date = "2016-08-31"
+tags = ["Python"]
++++
  
 
 ## 同时调用多个对象的同一个方法

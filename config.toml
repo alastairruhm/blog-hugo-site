@@ -1,13 +1,12 @@
 baseurl = "http://blog.ruhm.me/"
 title = "Data Portal"
-#theme = "ghostwriter"
 languageCode = "en-us"
-copyright = "Ruhm.Pacino"
+copyright = "Alastair Ruhm"
 Paginate = 20
 metaDataFormat = "toml"
 
 [Author]
-    name = "Ruhm.Pacino"
+    name = "Alastair Ruhm"
     profile = "https://google.com/+XXX"
 
 [taxonomies]
@@ -18,7 +17,7 @@ metaDataFormat = "toml"
 [Params]
     intro = true
     headline = "Data Portal"
-    description = "We are fighting for the glory"
+    description = "黑色天使羽毛，使群星都黯淡无光"
     github = "https://github.com/RuhmST"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"

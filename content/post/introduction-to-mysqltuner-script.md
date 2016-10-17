@@ -7,7 +7,7 @@ tags = ["mysql"]
 
 github repo: https://github.com/major/mysqltuner-perl
 
->MySQLTuner is a script written in Perl that allows you to review a MySQL installation quickly and make adjustments to increase performance and stability. The current configuration variables and status data is retrieved and presented in a brief format along with some basic performance suggestions.
+> MySQLTuner is a script written in Perl that allows you to review a MySQL installation quickly and make adjustments to increase performance and stability. The current configuration variables and status data is retrieved and presented in a brief format along with some basic performance suggestions.
 
 ## download & install
 

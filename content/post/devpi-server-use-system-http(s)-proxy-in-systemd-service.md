@@ -24,7 +24,7 @@ index-url = http://devpi.xxx.com/root/pypi/+simple/
 trusted-host = devpi.xxx.com
 ```
 
-PS：如果网络比较差的话，timeout 设置的稍微大一点以免引起安装较大的包时出现 `read timeout` 的问题
+PS：如果网络质量比较差的话，timeout 设置的稍微大一点以免引起安装较大的包时出现 `read timeout` 的问题
 
 ## 使用过程中遇到的问题
 

@@ -1,61 +1,27 @@
 +++
 title = "python 中关于 ISO 8601 格式的时间处理"
 date = "2016-10-10"
-tags = ["Python", "devpi"]
+tags = ["Python"]
 +++
 
-## pip 的问题
+## 问题来源
 
-从 `pypi.python.org` 官方源安装速度太慢，切换到国内的镜像，开发是没有什么问题，但是如果要搞持续集成，就需要在内网构建私有的 pypi 服务来加速安装过程，在搭建私有 pypi 这个问题上，有一堆的工具可以选择，[这篇文章作者做了整理](http://wing2south.com/post/devpi-best-private-pypi-server/)，并且推荐使用 devpi。
+起因是调用 Openstack Nova API，获取实例的创建时间，返回的时间字符串是 `"2016-10-14T06:30:42Z"` 这样的，尝试用 Python built-in 库中的 time 模块解析成 datetime 对象，结果当然是失败了。
 
-## 搭建过程
+现在问题抽象成：如何将形如 `"2016-10-14T06:30:42Z"` 的字符串转换为对应的 Python 的时间对象。
 
-参考官方提供的安装文档：[Quickstart: running a pypi mirror on your laptop — devpi server-4.0, client-2.6, web-3.1 documentation](http://doc.devpi.net/latest/quickstart-pypimirror.html#installing-devpi-server)，这里不再赘述。
+## IOS 8601 
 
-## 客户端配置
+首先需要知道， `"2016-10-14T06:30:42Z"` 是一种国际标准的时间表示法 [ISO 8601](https://zh.wikipedia.org/wiki/ISO_8601)。
 
-创建 `$HOME/.pip/pip.conf` 文件，内容如下
+其中比较少见的两个字符，"T" 是日期和时间的合并表示时，要在时间前面加一大写字母T；"Z" 表示 UTC 时间，如果是地区时间表示，则可以使用 `+hh:mm:ss` 或者 `-hh:mm:ss`，前者表示超前 `UTC` 时间，后者表示滞后 `UTC` 时间。
 
-```
-[global]
-timeout = 60
-index-url = http://devpi.xxx.com/root/pypi/+simple/
-[install]
-trusted-host = devpi.xxx.com
-```
-
-PS：如果网络比较差的话，timeout 设置的稍微大一点以免引起安装较大的包时出现 `read timeout` 的问题
-
-## 使用过程中遇到的问题
-
-### devpi-server 配置网络代理
-
-devpi-server [在 v1.2 版本就支持系统的代理配置](http://doc.devpi.net/latest/announce/1.2.html)
-
-> use system http/s proxy settings from devpi-server. fixes issue58.
-
-但是使用的是 systemd 服务配置后台服务的话，proxy 的配置不能写在 `$HOME/.bash_profile` 文件里，要定义在 systemd unit 文件里，看下面的例子
-
-```
-[root@devpi ~]# cat /etc/systemd/system/devpi.service
-[Unit]
-Requires=network-online.target
-After=network-online.target
-
-[Service]
-Environment=http_proxy=http://proxy.xx.corp.com:1080
-Environment=https_proxy=http://proxy.xx.corp.com:1080
-Type=forking
-PIDFile=/root/.devpi/server/.xproc/devpi-server/xprocess.PID
-Restart=always
-ExecStart=/usr/bin/devpi-server --host=0.0.0.0 --port 80  --start
-ExecStop=/usr/bin/devpi-server --host=0.0.0.0 --port 80 --stop
-User=root
-```
+https://dateutil.readthedocs.io/en/stable/parser.html
 
 
 ## 参考：
 
-* [devpi —— 架设私有 pypi 的最佳选择](http://wing2south.com/post/devpi-best-private-pypi-server/)
-
+* [ISO 8601 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/ISO_8601)
+* [Date and Time Formats](https://www.w3.org/TR/NOTE-datetime)
+* [Python-基础-时间日期处理小结](http://www.wklken.me/posts/2015/03/03/python-base-datetime.html#_1)
 

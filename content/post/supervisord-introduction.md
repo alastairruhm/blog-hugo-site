@@ -8,7 +8,7 @@ tags = ["python", "supervisor"]
 
 ## Q&A
 
-1. supervisor app 配置中的 command 只能配置一行，比如stackoverflow这个问题 
+1. supervisor app 配置中的 command 只能配置一行，比如 stackoverflow 这个问题 
   
   * [python - supervisor - how to run multiple commands - Stack Overflow](http://stackoverflow.com/questions/28994647/supervisor-how-to-run-multiple-commands)
   
@@ -38,6 +38,8 @@ tags = ["python", "supervisor"]
     deactivate
     ```
     
-  参考： [supervisord + pypy + virtualenv 使用 - zheng-ji's Wiki](http://wiki.zheng-ji.info/Python/supervisord.html)
+## 参考
+ 
+ * [supervisord + pypy + virtualenv 使用 - zheng-ji's Wiki](http://wiki.zheng-ji.info/Python/supervisord.html)
 
 

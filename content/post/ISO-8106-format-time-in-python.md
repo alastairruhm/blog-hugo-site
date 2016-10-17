@@ -1,6 +1,6 @@
 +++
-title = "devpi-server 加速内网 pip 包安装"
-date = "2016-10-04"
+title = "python 中关于 ISO 8601 格式的时间处理"
+date = "2016-10-10"
 tags = ["Python", "devpi"]
 +++
 

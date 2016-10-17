@@ -22,7 +22,3 @@ tags = ["python"]
 2. http://cenalulu.github.io/python/multi-version-python-on-mac/
 3. http://stackoverflow.com/questions/18671253/how-can-i-use-homebrew-to-install-both-python-2-and-3-on-mac
 
-## 修订历史
-
-* 2016-02-24: 初稿
-

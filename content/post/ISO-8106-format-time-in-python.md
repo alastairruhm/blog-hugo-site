@@ -16,6 +16,8 @@ tags = ["Python"]
 
 其中比较少见的两个字符，"T" 是日期和时间的合并表示时，要在时间前面加一大写字母T；"Z" 表示 UTC 时间，如果是地区时间表示，则可以使用 `+hh:mm:ss` 或者 `-hh:mm:ss`，前者表示超前 `UTC` 时间，后者表示滞后 `UTC` 时间。
 
+## Python 如何解析
+
 https://dateutil.readthedocs.io/en/stable/parser.html
 
 

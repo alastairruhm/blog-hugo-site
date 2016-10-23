@@ -18,7 +18,7 @@ metaDataFormat = "toml"
     intro = true
     headline = "Data Portal"
     description = "黑色天使羽毛，使群星都黯淡无光"
-    github = "https://github.com/RuhmST"
+    github = "https://github.com/alastairruhm"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/Ruhm_ST"
@@ -51,3 +51,8 @@ metaDataFormat = "toml"
     name = "Categories"
     url = "/categories/"
     weight = 5
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 6

@@ -37,4 +37,6 @@ gvm use go1.5
 ## 参考：
 
 * [用gvm管理Go项目的workspace | Go语言中文网 | Golang中文社区 | Golang中国](http://studygolang.com/articles/4788)
+* [Go 语言的包依赖管理 | IO-meter](https://io-meter.com/2014/07/30/go's-package-management/)
+
 

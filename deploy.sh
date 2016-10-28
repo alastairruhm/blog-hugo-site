@@ -16,6 +16,9 @@ msg="rebuilding site $(date '+%Y-%m-%d %H:%M:%S')"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
+
+echo -e "\033[0;32mRebuilding site...\033[0m"
+
 git commit -m "$msg"
 
 # Push source and build repos.

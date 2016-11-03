@@ -9,6 +9,7 @@ tags = ["mysql"]
 # mariadb 关键参数配置参考
 
 ## `max_connections`
+
 MariaDB 5.5 默认150，取值建议配合线程池的大小适当规划，这个值需要跟`innodb_buffer_pool_size` 关联，至少保证两者相加的内存占用不应该超过OS的可用内存。
 
 * 对于OS 2G memory 建议值不超过256，可以设置为200

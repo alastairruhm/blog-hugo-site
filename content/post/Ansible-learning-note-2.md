@@ -2,7 +2,7 @@
 title = "anbile 学习笔记（二）"
 date = "2016-03-23"
 categories = ["ansible", "devops"]
-tags = ["ansible学习笔记", "ansible"]
+tags = ["ansible"]
 series = [ "ansible学习笔记" ]
 +++
 

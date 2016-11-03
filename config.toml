@@ -27,6 +27,8 @@ metaDataFormat = "toml"
 [Permalinks]
     post = "/:filename/"
 
+[menu]
+
 [[menu.main]]
     name = "Blog"
     url = "/"

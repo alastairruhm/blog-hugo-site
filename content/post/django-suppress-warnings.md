@@ -1,5 +1,5 @@
 +++
-title = "[Django] RuntimeWarning: DateTimeField received a naive datetime"
+title = "[Django] How to suppress warnings"
 date = "2016-11-16"
 tags = ["django"]
 +++

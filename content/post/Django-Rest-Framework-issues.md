@@ -1,7 +1,7 @@
 +++
 title = "Django Rest Framework 问题备忘"
 date = "2016-08-16"
-tags = ["django-rest-framework"]
+tags = ["django-rest-framework", "django"]
 +++
 
 # Django Rest Framework 问题备忘

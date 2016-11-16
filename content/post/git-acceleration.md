@@ -62,7 +62,7 @@ Host github.com
     hostname github.com
     User xxxxx
     IdentityFile ~/.ssh/xxxxxx
-    ProxyCommand /usr/local/sbin/git-proxy-wrapper '%h %p
+    ProxyCommand /usr/local/sbin/git-proxy-wrapper '%h %p'
 ```
 
 ### 优点

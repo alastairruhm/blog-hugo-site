@@ -1,5 +1,5 @@
 +++
-title = "using proxy on git"
+title = "proxy on git"
 date = "2016-11-07"
 tags = ["git", "github", "proxy"]
 +++

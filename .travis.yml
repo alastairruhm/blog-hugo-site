@@ -1,10 +1,5 @@
-language: go
-
 git:
   submodules: false
-
-go:
-    - "1.7.1"
 
 before_script:
     - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2

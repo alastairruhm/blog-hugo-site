@@ -12,3 +12,6 @@ before_script:
 
 script:
     - hugo
+
+notifications:
+  slack: ruhm-pacino:vcSqblVd1vSDgaOzWLNbThfS

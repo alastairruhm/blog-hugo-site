@@ -22,7 +22,7 @@ metaDataFormat = "toml"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/Ruhm_ST"
-    stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+    stackoverflow = "http://stackoverflow.com/users/5827468/pacino-ruhm"
 
 [Permalinks]
     post = "/:filename/"
@@ -33,6 +33,11 @@ metaDataFormat = "toml"
     name = "Blog"
     url = "/"
     weight = 1
+
+[[menu.main]]
+    name = "wiki"
+    url = "/wiki/"
+    weight = 2
 
 [[menu.main]]
     name = "weekly-issues"

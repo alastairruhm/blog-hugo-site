@@ -8,6 +8,7 @@ tags = ["CI"]
 
 * [Travis CI](https://travis-ci.org/)
 * [drone.io](https://drone.io/)
+* [flow.ci](http://flow.ci/)
 
 ## 测试覆盖率
 

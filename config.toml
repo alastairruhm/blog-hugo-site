@@ -35,11 +35,6 @@ metaDataFormat = "toml"
     weight = 1
 
 [[menu.main]]
-    name = "wiki"
-    url = "/wiki/"
-    weight = 2
-
-[[menu.main]]
     name = "weekly-issues"
     url = "/weekly-issues/"
     weight = 2

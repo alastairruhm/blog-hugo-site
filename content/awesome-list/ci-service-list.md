@@ -16,6 +16,4 @@ tags = ["CI"]
 
 ## 代码规范
 
-* linthub.io 
-
-
+* linthub.io

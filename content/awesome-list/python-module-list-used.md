@@ -13,6 +13,8 @@ tags = ["python"]
 ## 日期处理
 
 * [Arrow: better dates and times for Python — Arrow 0.4.4 documentation](http://crsmithdev.com/arrow/)
-* 
 
+## Integration
+
+* [blacked/py-zabbix: Python modules for work with zabbix.](https://github.com/blacked/py-zabbix)
 

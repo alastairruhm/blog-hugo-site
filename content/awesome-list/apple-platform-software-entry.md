@@ -25,14 +25,15 @@ tags = ["os x"]
 * [evernote]() - 笔记软件
 * [MWeb]() - markdown 写作软件
 * Surge for mac - 网络调试工具
+* [spark mail app for ios and macOS](https://sparkmailapp.com/)
 * [licecap](http://www.cockos.com/licecap/) - 录屏输出 gif
 
 ## 编程
 
 * Dash - 离线查文档的利器，支持 Alfred
+* [Vagrant](https://www.vagrantup.com/) - 虚拟机管理
 * SnippetsLab - 代码片段管理
 * [Postman]() - API 构建测试工具
-* [Visual Studio Code]() - 代码编辑器
 * [Robomongo]() - mongodb 客户端
 * [CodeRunner]() - Programming Editor for Mac
 * [iTerm]() - alternative for terminal

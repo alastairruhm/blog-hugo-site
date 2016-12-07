@@ -51,6 +51,9 @@ Restart=always
 ExecStart=/usr/bin/devpi-server --host=0.0.0.0 --port 80  --start
 ExecStop=/usr/bin/devpi-server --host=0.0.0.0 --port 80 --stop
 User=root
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 

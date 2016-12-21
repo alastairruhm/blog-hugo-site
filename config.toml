@@ -1,4 +1,4 @@
-baseurl = "http://blog.ruhm.me/"
+baseurl = "https://blog.ruhm.me/"
 title = "Data Portal"
 languageCode = "en-us"
 copyright = "Alastair Ruhm"
@@ -22,7 +22,7 @@ metaDataFormat = "toml"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/Ruhm_ST"
-    stackoverflow = "http://stackoverflow.com/users/5827468/pacino-ruhm"
+    stackoverflow = "https://stackoverflow.com/users/5827468/pacino-ruhm"
 
 [Permalinks]
     post = "/:filename/"

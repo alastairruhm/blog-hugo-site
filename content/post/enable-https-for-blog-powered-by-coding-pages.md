@@ -19,20 +19,20 @@ PS：这里绑定的 `http`的域名不需要更换为 `https` 的。
 
 首先，增加一个`site`配置
 
-![-w487](http://7xqakm.com1.z0.glb.clouddn.com/2016-12-21-14822980860035.jpg)
+![-w487](https://oiitkuz0h.qnssl.com/2016-12-21-14822980860035.jpg)
 
 增加一个 `DNS` 记录，将绑定的域名指向`pages.conding.me` 
 
-![-w499](http://7xqakm.com1.z0.glb.clouddn.com/2016-12-21-14822981467604.jpg)
+![-w499](https://oiitkuz0h.qnssl.com/2016-12-21-14822981467604.jpg)
 
 在 `Crypyo` 配置中 `SSL` 设置为 `Flexible`
 
-![-w490](http://7xqakm.com1.z0.glb.clouddn.com/2016-12-21-14822983519779.jpg)
+![-w490](https://oiitkuz0h.qnssl.com/2016-12-21-14822983519779.jpg)
 
 
 在 `Page Rule` 中创建一个规则，将 `http` 的请求重定向到 `https`
 
-![-w400](http://7xqakm.com1.z0.glb.clouddn.com/2016-12-21-14822984253436.jpg)
+![-w400](https://oiitkuz0h.qnssl.com/2016-12-21-14822984253436.jpg)
 
 
 
@@ -40,7 +40,7 @@ PS：这里绑定的 `http`的域名不需要更换为 `https` 的。
 
 PS：我这里用的 `Godaddy`，必须去 `Godaddy` 修改
 
-![-w481](http://7xqakm.com1.z0.glb.clouddn.com/2016-12-21-14822982467422.jpg)
+![-w481](https://oiitkuz0h.qnssl.com/2016-12-21-14822982467422.jpg)
 
 
 ## 参考

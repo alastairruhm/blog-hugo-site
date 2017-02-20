@@ -12,7 +12,7 @@ series = [ "ansible学习笔记" ]
 
 ## Ansible 一些核心概念
 
-![ansible-component](http://7xqakm.com1.z0.glb.clouddn.com/2016-03-24-ansible-component.png)
+![ansible-component](https://oiitkuz0h.qnssl.com/2016-03-24-ansible-component.png)
 
 
 * Ansible: 核心

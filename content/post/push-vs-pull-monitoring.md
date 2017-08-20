@@ -73,5 +73,6 @@ pull 模型的一些不同于 push 的特点：
 ## furthur reading
 
 * [Go App Monitoring: expvar, Prometheus and StatsD - OpsDash](https://www.opsdash.com/blog/golang-app-monitoring-statsd-expvar-prometheus.html)
-
+* [InfluxData Kapacitor 1.3 | Monitoring Push vs Pull and The Support of Both](https://www.influxdata.com/monitoring-with-push-vs-pull-influxdb-adds-pull-support-with-kapacitor/)
+* [监控系统中到底是pull还是push方案好？ - Go 技术社区 - golang](https://gocn.io/question/373)
 
